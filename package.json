@@ -1,0 +1,21 @@
+{
+  "name": "vagadev-042018",
+  "version": "1.0.0",
+  "description": "Nossa avaliação é bem simples, pois o intuito é analisar como o candidato desenvolve os itens solicitados.\r Avaliamos qualidade de código, versionamento, automatizadores, preprocessadores e etc.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://Lucas-Amaral@bitbucket.org/rafael_augusto_n1/vagadev-042018.git"
+  },
+  "author": "LucasAmaral",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/rafael_augusto_n1/vagadev-042018#readme",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}

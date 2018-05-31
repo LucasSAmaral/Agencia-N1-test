@@ -1,0 +1,88 @@
+.slick-prev, .slick-next {
+    font-size: 0;
+    position: absolute;
+    top: 50%;
+    width: 29px;
+    height: 50px;
+    padding: 0;
+    border: none;
+    outline: none;
+    color: transparent;
+    background: transparent;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.slick-prev {
+    background-image: url(../../../files/img/left-arrow.png);
+    left: 44px;
+}
+
+.container-products {
+    .slick-prev {
+        @media screen and (max-width: 599px){
+            left: -60px;
+        }
+
+        @media screen and (max-width: 425px){
+            left: -40px;
+        }
+
+        @media screen and (max-width: 375px){
+            left: 16px;
+        }
+    }
+
+    .slick-next {
+        @media screen and (max-width: 599px){
+            right: -60px;
+        }
+
+        @media screen and (max-width: 425px){
+            right: -40px;
+        }
+
+        @media screen and (max-width: 375px){
+            right: 16px;
+        }
+    }
+}
+
+.slick-next {
+    background-image: url(../../../files/img/right-arrow.png);
+    right: 44px;
+}
+
+.slick-dots {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    left: calc(50% - 100px);
+
+    li {
+        display: inline-block;
+        margin-right: 13px;
+
+        button {
+            position: relative;
+            bottom: 6px;
+            width: 37px;
+            height: 52px;
+            transition: 0.4s;
+            background-color: #40c3db;
+            border: none;
+            cursor: pointer;
+            color: #ffffff;
+            font-family: 'PT Sans', sans-serif;
+            font-size: 24px;
+        }
+
+        &.slick-active {
+            button {
+                bottom: 52px;
+            }
+        }
+    }
+}

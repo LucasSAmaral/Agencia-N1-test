@@ -1,0 +1,118 @@
+.container {
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+
+
+}
+
+.fundo {
+    background: #000000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.container-lightbox {
+    .conteudo {
+        position: fixed;
+        width: 100%;
+        max-width: 523px;
+        height: 300px;
+        z-index: 2;
+        left: calc(50% - (523px/2));
+        padding: 8px;
+        top: calc(50% - 150px);
+        background-color: #121415;
+    }
+
+    .fechar {
+        display: block;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        cursor: pointer;
+        font-family: 'PT Sans', sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .lightbox-image {
+        display: inline-block;
+        float: left;
+        width: 40%;
+        text-align: center;
+        height: 100%;
+        padding: 50px 0px;
+    }
+
+    .container-cadastro {
+        width: 60%;
+        height: 100%;
+        display: inline-block;
+        text-align: left;
+        font-family: 'PT Sans', sans-serif;
+        padding: 35px 0 0px 12px;
+
+        p {
+            margin: 0;
+            color: #ffffff;
+        }
+
+        .cadastro-title {
+            font-size: 24px;
+        }
+
+        .cadastro-caption {
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+
+        input[type=text] {
+            width: 93%;
+            padding: 13px 15px;
+            background-color: #121415;
+            border: 1px solid #ffffff;
+            color: #4d4d4d;
+            margin-bottom: 8px;
+        }
+
+        .btn-cadastrar {
+            border: none;
+            color: #ffffff;
+            background-color: #40c3db;
+            padding: 14px 38px;
+            text-transform: uppercase;
+            font-family: 'PT Sans', sans-serif;
+            margin-top: 12px;
+            cursor: pointer;
+        }
+
+    }
+
+    .cadastro-completo {
+        text-align: center;
+        font-family: 'PT Sans', sans-serif;
+        height: 100%;
+        padding: 100px 0;
+
+        p {
+            margin: 0;
+        }
+
+        .cadastro-completo-title {
+            font-size: 16px;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .nome-cadastrado {
+            font-size: 36px;
+            color: #40c3db;
+        }
+    }
+}
